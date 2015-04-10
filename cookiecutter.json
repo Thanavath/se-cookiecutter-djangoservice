@@ -1,0 +1,12 @@
+{
+    "full_name": "Simple Energy",
+    "email": "piper@simpleenergy.com",
+    "github_username": "simpleenergy",
+    "project_name": "Simple Energy Django Service",
+    "repo_name": "se-django-service",
+    "app_name": "se_django_service",
+    "project_short_description": "Your project description goes here",
+    "release_date": "2015-01-01",
+    "year": "2015",
+    "version": "1.0.0"
+}

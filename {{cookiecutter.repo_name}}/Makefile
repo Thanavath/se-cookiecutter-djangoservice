@@ -8,6 +8,7 @@ help:
 	@echo "testall - run tests on every Python version with tox"
 	@echo "release - package and upload a release"
 	@echo "sdist - package"
+	@echo "doc - build html doc"
 
 clean: clean-build clean-pyc
 
@@ -33,3 +34,6 @@ release: clean
 sdist: clean
 	python setup.py sdist
 	ls -l dist
+
+doc:
+	cd sphinx_doc && make html && cd ..
